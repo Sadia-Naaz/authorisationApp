@@ -1,0 +1,28 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+    // background-color: black;
+    .tabs-container{
+     height: fit-content;
+     width: 50vw;
+     background-color: white;
+     border-radius: 20px;
+     padding: 20px;
+     .form{
+        margin-top: 20px;
+        padding: 20px;
+        display:flex;
+        flex-direction: column;
+       
+     }
+   
+
+    }
+    .signUp-form{
+        display:flex;
+        flex-direction: column;
+    }
+}
